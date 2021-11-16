@@ -5,7 +5,6 @@ html,body {
     flex-direction: column;
     margin: 0;
     width:100%
-    overflow-x:hidden;
 }
 
 a {
@@ -37,7 +36,7 @@ a {
 }
 
 .header a {
-    padding: 25px;
+    padding: 40px;
     color: #f9faf8;
     font-size: 18px;
 }
@@ -51,7 +50,6 @@ a {
     align-items: center;
     min-height: 450px;
     justify-content: center;
-    
 }
 
 
@@ -81,13 +79,13 @@ a {
     font-weight: 700;
     font-size: 48px;
     color: #f9faf8;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
 }
 
 .hero-title-text {
-    font-size: 20px;
+    font-size: 24px;
     color: #E5E7Eb;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     flex:wrap;
 }
 
@@ -109,16 +107,16 @@ a {
 .overview {
     display: flex;
     flex-direction: column;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    margin-bottom: 40px;
+    margin-top: 40px;
     padding: 40px 150px 40px 150px;
     align-items: center;
 }
 
 .overview-title {
     display:flex;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     font-size: 36px;
     font-weight: 700;
     color: #1f2937;
@@ -158,9 +156,9 @@ a {
     font-size: 36px;
     font-style:italic;
     margin: 0;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    padding: 30px 600px 30px 600px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 30px 500px 30px 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -184,15 +182,16 @@ a {
     justify-content: center;
     min-height: 300px;
     align-items: center;
+    font-size: 18px;
 }
 
 .sign-container {
     color: #fff;
     display: flex;
     background-color: #3882f6;
-    width: 800px;
+    width: 1000px;
     border-radius: 5px;
-    padding: 25px 100px 25px 100px;
+    padding: 40px 100px 40px 100px;
     flex-direction: row;
     align-items: center;
 }
@@ -208,8 +207,34 @@ a {
     align-items: center;
     justify-content: center;
     display: flex;
-    
 }
+
+.sign-action {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.sign-up {
+    border-radius: 5px;
+    border: 2px solid #fff;
+    padding: 10px 40px 10px 40px;
+    font-weight: 700;
+}
+
+.sign-up a {
+    color: #fff;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    background-color: #1f2937;
+    color: #fff;
+    flex-shrink: 0;
+}
+
 
 
 
