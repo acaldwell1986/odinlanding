@@ -1,9 +1,11 @@
-body {
+html,body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;
+    width:100%
+    overflow-x:hidden;
 }
 
 a {
@@ -15,9 +17,9 @@ a {
     flex-direction: row;
     background-color: #1f2937;
     margin: 0px;
+    margin-bottom: -1px;
     padding: 32px 200px 32px 200px;
     align-items: center;
-
     
 }
 
@@ -53,8 +55,8 @@ a {
 }
 
 .hero-right img {
-    width: 450px;
-    height: 300px;
+    width: 100%;
+    aspect-ratio: auto;
     margin: 0px;
     padding: 0px;
 }
@@ -62,12 +64,13 @@ a {
 .hero-right {
     margin:0px;
     padding: 0px 50px 0px 50px;
+    width:650px;
 }
 
 .hero-left {
     margin:0px;
     padding: 0px 50px 0px 50px;
-    width: 600px;
+    width: 650px;
 }
 
 .hero-title {
@@ -102,11 +105,10 @@ a {
 .overview {
     display: flex;
     flex-direction: column;
-    margin: 10px;
-    padding: 16px 150px 16px 150px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 40px 150px 40px 150px;
     align-items: center;
-    
-    
 }
 
 .overview-title {
@@ -128,21 +130,46 @@ a {
 }
 
 .overview-item {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     padding: 16px;
-    margin: 16px;
-    
+    margin: 16px 0 16px 0;
     align-items: center;
     justify-content: center;
     
 }
 
 .overview-item img {
-    width: 220px;
-    height: 180px;
+    width: 200px;
+    height: 150px;
     border: 3px solid #3882f6;
     border-radius: 15px;
 }
+
+.quote {
+    min-height: 450px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style:italic;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 30px 150px 30px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.quote-item {
+    max-height:300px;
+}
+
+.quote-author {
+    width:350px;
+    font-weight: bold;;
+    align-self: flex-end;
+}
+
