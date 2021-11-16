@@ -37,7 +37,7 @@ a {
 }
 
 .header a {
-    padding: 10px;
+    padding: 25px;
     color: #f9faf8;
     font-size: 18px;
 }
@@ -47,7 +47,7 @@ a {
     flex-direction: row;
     background-color: #1f2937;
     margin: 0px;
-    padding: 16px 150px 16px 150px;
+    padding: 16px 200px 16px 200px;
     align-items: center;
     min-height: 450px;
     justify-content: center;
@@ -60,13 +60,13 @@ a {
     display:flex;
     justify-content: center;
     margin:0px;
-    padding: 0px 0px 0px 150px;
+    padding: 0px 0px 0px 0px;
     flex:1;
 }
 
 .hero-left {
     margin:0px;
-    padding: 0px 50px 0px 50px;
+    padding: 0p 100px 0p 0px;
     flex:1;
 }
 
@@ -109,16 +109,16 @@ a {
 .overview {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
     padding: 40px 150px 40px 150px;
     align-items: center;
 }
 
 .overview-title {
     display:flex;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     font-size: 36px;
     font-weight: 700;
     color: #1f2937;
@@ -153,14 +153,14 @@ a {
 }
 
 .quote {
-    min-height: 450px;
+    min-height: 400px;
     background-color: #e5e7eb;
     font-size: 36px;
     font-style:italic;
     margin: 0;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding: 30px 300px 30px 300px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 30px 600px 30px 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,3 +177,16 @@ a {
     align-self: flex-end;
 }
 
+.sign {
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: center;
+}
+
+.sign-container {
+    display: flex;
+    background-color: #3882f6;
+    width: 800px;
+    border-radius: 5px;
+    padding: 25px 100px 25px 100px;
+}
