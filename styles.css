@@ -193,7 +193,22 @@ a {
     width: 800px;
     border-radius: 5px;
     padding: 25px 100px 25px 100px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    flex-grow: 2;
+}
+.right {
+    flex-grow:1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
 }
 
 
