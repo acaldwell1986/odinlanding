@@ -179,14 +179,23 @@ a {
 
 .sign {
     display: flex;
+    flex-direction: row;
     background-color: #FFFFFF;
     justify-content: center;
+    min-height: 300px;
+    align-items: center;
 }
 
 .sign-container {
+    color: #fff;
     display: flex;
     background-color: #3882f6;
     width: 800px;
     border-radius: 5px;
     padding: 25px 100px 25px 100px;
+    flex-direction: column;
 }
+
+
+
+
