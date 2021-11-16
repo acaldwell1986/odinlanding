@@ -51,26 +51,30 @@ a {
     align-items: center;
     min-height: 450px;
     justify-content: center;
-    flex:1;
+    
 }
 
-.hero-right img {
-    width: 100%;
-    aspect-ratio: auto;
-    margin: 0px;
-    padding: 0px;
-}
+
 
 .hero-right {
+    display:flex;
+    justify-content: center;
     margin:0px;
     padding: 0px 50px 0px 50px;
-    width:650px;
+    flex:1;
 }
 
 .hero-left {
     margin:0px;
     padding: 0px 50px 0px 50px;
-    width: 650px;
+    flex:1;
+}
+
+.hero-right img {
+    max-width: 600px;
+    width: 100%;
+    aspect-ratio: auto;
+    margin: 0px;
 }
 
 .hero-title {
@@ -81,7 +85,7 @@ a {
 }
 
 .hero-title-text {
-    font-size: 18px;
+    font-size: 20px;
     color: #E5E7Eb;
     margin-bottom: 15px;
     flex:wrap;
@@ -156,7 +160,7 @@ a {
     margin: 0;
     margin-bottom: 10px;
     margin-top: 10px;
-    padding: 30px 150px 30px 150px;
+    padding: 30px 300px 30px 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -168,7 +172,7 @@ a {
 }
 
 .quote-author {
-    width:350px;
+    width:400px;
     font-weight: bold;;
     align-self: flex-end;
 }
